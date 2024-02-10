@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Navbar.module.css'
-import { FaInstagram, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin, FaWhatsapp, } from "react-icons/fa";
 import Nav from 'react-bootstrap/Nav';
 
 const Navbar = () => {
