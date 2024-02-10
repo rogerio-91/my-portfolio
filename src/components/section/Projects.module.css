@@ -1,0 +1,19 @@
+.projects {
+    text-align: justify;
+    margin-left: 75px;
+}
+
+.projects h1 {
+    font-size: 45px;
+}
+
+@media (max-width: 768px) {
+    .projects {
+      margin-left: 0;
+      padding: 0 20px; 
+    }
+  
+    .projects h1 {
+      font-size: 35px; 
+    }
+  }

@@ -1,0 +1,27 @@
+.presentation {
+    text-align: left;
+    margin-left: 15%;
+}
+
+.presentation h1 {
+    font-size: 45px;
+}
+
+.presentation h4 {
+    font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    .presentation {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    .presentation h1 {
+        font-size: 35px;
+    }
+
+    .presentation h4 {
+        font-size: 20px;
+    }
+}

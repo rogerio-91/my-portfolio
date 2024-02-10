@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 0.7em;
+}
+
+.navbar a {
+    color: aliceblue !important;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 5em;
+    }
+    .navbar li {
+        margin: 0.8em;
+        width: calc(50% - 1.5em);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .navbar a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .navbar a:hover {
+        color: inherit;
+    }
+}
